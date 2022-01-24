@@ -1,5 +1,5 @@
 # Exercise Script
-This script sends crypto price updates to your ifttt app that show up as notifications on your phone. It reads a list of crypto names from a Google Sheet.
+This script sends a random exercise to your ifttt app that show up as notifications on your phone. It reads a list of exercises from a Google Sheet.
 
 # How to deploy
 
