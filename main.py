@@ -8,13 +8,14 @@ from random import choice
 
 # the project id is set using an env variable when deploying
 # it is needed for acessing secrets
-PROJECT_ID = os.environ["project_id"]
+PROJECT_ID = os.getenv("MY_PROJECT_ID")
 
 # name of Google Sheet that has the exercises
 SHEET_NAME = "random exercises"
 
 # name of the ifttt event that will handle the web request
 IFTTT_EVENT = "random_exercise"
+
 
 # this function gets a secret from the GCP secret manager
 def get_secret(secret_name: str):
